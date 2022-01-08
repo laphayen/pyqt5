@@ -15,7 +15,7 @@ class MyApp(QWidget):
 
   def initUI(self):
       self.setWindowTitle('Icon')
-      # 이미지 지정
+      # 아이콘 이미지 지정
       self.setWindowIcon(QIcon('icon.png'))
       # title bar의 name 지정
       self.setWindowTitle('pyqt5 위젯')
